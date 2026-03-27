@@ -46,7 +46,7 @@ import bsebLogo from './assets/education_logo/BSEB_logo.png';
 // Project Section Logo's
 import githubfindLogo from './assets/work_logo/github.find.png';
 import portfolioproject from './assets/work_logo/portfolioproject_logo.png';
-import ekcupchaiLogo from './assets/work_logo/Ek_Cup_Chai.png';
+import ekcupchaiLogo from './assets/work_logo/ek_cup_chai.png';
 import campusbridgeLogo from './assets/work_logo/campusbridge.png';
 import CollegeExploreLogo from './assets/work_logo/CollegeExplore.png';
 import webverLogo from './assets/work_logo/web_dig.png';
