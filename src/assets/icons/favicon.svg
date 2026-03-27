@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8245ec" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="64" ry="64" fill="url(#g)" />
+  <g transform="translate(0,6)">
+    <circle cx="64" cy="58" r="46" fill="#ffffff" />
+    <image href="/src/assets/profile2.png.png" x="18" y="12" width="92" height="92" preserveAspectRatio="xMidYMid slice" clip-path="circle(46px at 64px 58px)" />
+  </g>
+</svg>
