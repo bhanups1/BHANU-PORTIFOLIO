@@ -23,6 +23,7 @@ const Footer = () => {
             { name: "Skills", id: "skills" },
             // Experience removed
             { name: "Projects", id: "projects" },
+            { name: "Certifications", id: "certifications" },
             { name: "Education", id: "education" },
           ].map((item, index) => (
             <button

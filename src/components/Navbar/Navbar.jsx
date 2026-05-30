@@ -33,6 +33,7 @@ const Navbar = () => {
     { id: "skills", label: "Skills" },
     // Experience ko yahan se hata diya jayega 
     { id: "work", label: "Projects" },
+    { id: "certifications", label: "Certifications" },
     { id: "education", label: "Education" },
   ];
 

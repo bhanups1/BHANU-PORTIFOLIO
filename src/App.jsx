@@ -5,6 +5,7 @@ import Skills from "./components/Skills/Skills";
 // Experience section removed (no work experience)
 // import Experience from "./components/Experience/Experience";
 import Work from "./components/Work/Work";
+import Certifications from "./components/Certifications/Certifications";
 import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
@@ -24,6 +25,7 @@ const App = () => {
         <Skills />
         {/* Experience section removed: <Experience /> */}
         <Work />
+        <Certifications />
         <Education />
         <Contact />
         <Footer />

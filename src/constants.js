@@ -49,12 +49,13 @@ import portfolioproject from './assets/work_logo/portfolioproject_logo.png';
 import ekcupchaiLogo from './assets/work_logo/ek_cup_chai.png';
 import campusbridgeLogo from './assets/work_logo/campusbridge.png';
 import CollegeExploreLogo from './assets/work_logo/CollegeExplore.png';
-import webverLogo from './assets/work_logo/web_dig.png';
+import WallCalander from './assets/work_logo/WallCalander.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
-
+// Certifications Section Logo's
+import ApnaCollegeLogo from './assets/certification_logo/ApnaCollege.png';
 
 export const SkillsInfo = [
   {
@@ -83,14 +84,14 @@ export const SkillsInfo = [
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      // { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
     title: 'Languages',
     skills: [
-      // { name: 'C', logo: cLogo },
-      // { name: 'C++', logo: cppLogo },
+      { name: 'C', logo: cLogo },
+      { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       // { name: 'C-Sharp', logo: csharpLogo },
@@ -187,6 +188,35 @@ export const SkillsInfo = [
     },
     
   ];
+
+  export const certifications = [
+    {
+      id: 0,
+      img: ApnaCollegeLogo, // No image for certifications, but you can add one if you have it
+      title: "Web Development Fundamentals",
+      issuer: "Apna College",
+      date: "March 2025",
+      description: "Completed a hands-on certificate covering HTML, CSS, JavaScript, and responsive web design best practices.",
+      link: "https://drive.google.com/file/d/1CYl_N5P5LPa0r792HoRi_tI3q8Jtf8xM/view?usp=sharing",
+    },
+    {
+      id: 1,
+      // img: CourseraLogo,
+      title: "React.js Portfolio Bootcamp",
+      issuer: "Oracle University",
+      date: "August 2025",
+      description: "Earned a certificate in Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate.",
+      link: "https://drive.google.com/file/d/1pWlRXX8K_9g8Deflb2cNkw9hVVVxAYwn/view?usp=sharing",
+    },
+    {
+      id: 2,
+      title: "Full Stack Web Developer",
+      issuer: "Apna College",
+      date: "December 2025",
+      description: "Earned a certificate in full-stack web application development, including frontend, backend, and database integration.",
+      link: "https://drive.google.com/file/d/1CYl_N5P5LPa0r792HoRi_tI3q8Jtf8xM/view?usp=sharing",
+    },
+  ];
   
   export const projects = [
     {
@@ -239,16 +269,16 @@ export const SkillsInfo = [
       github: "https://github.com/bhanups1/campusbridge",
       webapp: "https://campusbridge-lake.vercel.app/",
     },
-    // {
-    //   id: 5,
-    //   title: "Webverse Digital",
-    //   description:
-    //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    //   image: webverLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    //   github: "https://github.com/bhanups1/Webverse-Digital",
-    //   webapp: "https://webversel.com/",
-    // },
+    {
+      id: 5,
+      title: "Wall Calendar",
+      description:
+        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+      image: WallCalander,
+      tags: ["HTML", "CSS", "TypeScript", "next js", "React js"],
+      github: "https://github.com/bhanups1/WallCalendar",
+      webapp: "https://wal-calendar.vercel.app/",
+    },
     // {
     //   id: 6,
     //   title: "Coding Master",
